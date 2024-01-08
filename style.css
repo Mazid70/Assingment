@@ -118,7 +118,7 @@ a {
   color: white;
   position: absolute;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
   left: 32px;
@@ -185,11 +185,12 @@ h3 {
 }
 .coming-text h1 {
   text-align: start;
+  margin: 22px 0;
 }
 .coming p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 160% */
@@ -207,10 +208,12 @@ h3 {
 .coming-details-img {
   height: 140px;
   width: 140px;
+  margin-top: 22px;
 }
 .coming-details h1 {
   color: var(--primary-color--);
   text-align: start;
+  margin: 22px 0;
 }
 .holiday {
   margin-top: 120px;
@@ -222,6 +225,11 @@ h3 {
 .holiday-text {
   position: absolute;
   top: 0;
+}
+.holiday-text h1 {
+  font-family: Merriweather;
+  font-weight: 900;
+  font-size: 4.5rem;
 }
 .holiday-text h3 {
   color: var(--secondary-color--);
@@ -279,6 +287,9 @@ span {
 .portfolio-text * {
   text-align: start;
 }
+.portfolio-text h3 {
+  margin-bottom: 16px;
+}
 .portfolio-text p {
   max-width: 896px;
   color: rgba(7, 2, 17, 0.6);
@@ -322,10 +333,10 @@ span {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 160% */
+  line-height: 32px; 
   margin-top: 22px;
 }
 input {
