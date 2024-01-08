@@ -4,8 +4,8 @@
   font-family: "Merriweather", serif;
 }
 :root {
-  --primary-color--: #ff0000;
-  --secondary-color--: #070211;
+  --primary-color: #ff0000;
+  --secondary-color: #070211;
 }
 /* header section  */
 .cover {
@@ -47,7 +47,7 @@ h1 {
   margin-top: 120px;
 }
 .red {
-  color: var(--primary-color--);
+  color: var(--primary-color);
   text-align: center;
   font-size: 5.5rem;
   font-weight: 700;
@@ -60,7 +60,7 @@ h1 {
   margin-bottom: 16px;
 }
 .black {
-  color: var(--secondary-color--);
+  color: var(--secondary-color);
   text-align: center;
   font-family: Inter;
   font-size: 3rem;
@@ -136,7 +136,7 @@ a {
 }
 
 .time-text p {
-  color: var(--secondary-color--);
+  color: var(--secondary-color);
   font-family: Inter;
   font-size: 2rem;
   font-weight: 600;
@@ -145,15 +145,15 @@ a {
 }
 .times-text-one::before {
   content: "Place:";
-  color: var(--primary-color--);
+  color: var(--primary-color);
 }
 .times-text-two::before {
   content: "Date:";
-  color: var(--primary-color--);
+  color: var(--primary-color);
 }
 .times-text-three::before {
   content: "Time:";
-  color: var(--primary-color--);
+  color: var(--primary-color);
 }
 button {
   color: white;
@@ -163,7 +163,7 @@ button {
   font-style: normal;
   font-weight: 700;
   padding: 16px 32px;
-  background-color: var(--primary-color--);
+  background-color: var(--primary-color);
   border: none;
   border-radius: 16px;
   height: 56px;
@@ -180,7 +180,7 @@ button {
   max-width: 393px;
 }
 h3 {
-  color: var(--primary-color--);
+  color: var(--primary-color);
   text-align: start;
 }
 .coming-text h1 {
@@ -211,7 +211,7 @@ h3 {
   margin-top: 22px;
 }
 .coming-details h1 {
-  color: var(--primary-color--);
+  color: var(--primary-color);
   text-align: start;
   margin: 22px 0;
 }
@@ -232,7 +232,7 @@ h3 {
   font-size: 4.5rem;
 }
 .holiday-text h3 {
-  color: var(--secondary-color--);
+  color: var(--secondary-color);
   margin-bottom: 20px;
 }
 .holiday-text p {
@@ -246,7 +246,7 @@ h3 {
   margin-top: 28px;
 }
 span {
-  color: var(--primary-color--);
+  color: var(--primary-color);
 }
 .holiday * {
   text-align: center;
@@ -357,7 +357,7 @@ footer {
   height: 609px;
   max-height: 609px;
   width: 100%;
-  background: var(--secondary-color--);
+  background: var(--secondary-color);
   margin-top: 120px;
   display: flex;
   flex-direction: column;
