@@ -205,7 +205,7 @@ h3 {
   max-width: 276px;
 }
 .coming-details-img {
- height: 140px;
+  height: 140px;
   width: 140px;
 }
 .coming-details h1 {
@@ -266,7 +266,7 @@ span {
 }
 .holiday-image-four {
   right: 286px;
-  bottom:280px;
+  bottom: 280px;
   position: absolute;
 }
 .portfolio {
@@ -329,7 +329,7 @@ span {
   margin-top: 22px;
 }
 input {
-  width:50%;
+  width: 50%;
   height: 72px;
   border: none;
   border-radius: 50px 0px 0px 50px;
@@ -337,71 +337,71 @@ input {
 }
 .sub-text button {
   height: 73px;
-  width:20%;
+  width: 20%;
   border-radius: 0px 50px 50px 0px;
   padding: 0;
 }
 /* footer section  */
-footer{
-  height:609px;
+footer {
+  height: 609px;
   max-height: 609px;
   width: 100%;
   background: var(--secondary-color--);
   margin-top: 120px;
   display: flex;
- flex-direction: column;
-
+  flex-direction: column;
 }
-.footer-text{
+.footer-text {
   display: flex;
   margin-top: 120px;
   height: 80px;
   justify-content: space-around;
 }
-.section-one, .section-two{
+.section-one,
+.section-two {
   width: 375px;
 }
-.section-one p{
+.section-one p {
   font-size: 1.5rem;
   font-weight: 500;
   color: white;
-  
 }
-h5{
-  color: #FFF;
+h5 {
+  color: #fff;
   font-family: Inter;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 500;
-line-height: 2.5rem;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem;
 }
-.section-two img{
+.section-two img {
   width: 24px;
-height: 24px;
+  height: 24px;
 }
-.pick{
+.pick {
   display: flex;
   align-items: center;
-  justify-content:start;
-  gap: 10px;}
-.line{
-width: 1320px;
-height: 1px;
-background: rgba(255, 255, 255, 0.15);
-margin: 50px auto;
+  justify-content: start;
+  gap: 10px;
 }
-.icons{
-margin: 0 auto;
-display: flex;
-gap: 24px;
+.line {
+  width: 1320px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 50px auto;
 }
-.icons img{
-width: 64px;
-height: 64px;
-}
-.unsub{
+.icons {
+  margin: 0 auto;
   display: flex;
-  width:70%;
-  justify-content:space-between;
+  gap: 24px;
+}
+.icons img {
+  width: 64px;
+  height: 64px;
+}
+.unsub {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
   margin: 0 auto;
 }
